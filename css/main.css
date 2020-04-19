@@ -18,6 +18,14 @@ html {
   width: 9em;
 }
 
+.nav a:focus {
+  outline: 3px solid #fff;
+}
+
+.banner-content a:focus {
+  outline-color: #fff;
+}
+
 .nav {
   text-align: center;
 }
@@ -39,6 +47,7 @@ html {
 .banner {
   min-height: 16em;
   color: #fff;
+  background-color: #522806;
 }
 
 .card {
